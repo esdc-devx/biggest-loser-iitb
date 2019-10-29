@@ -7,6 +7,12 @@ module.exports = (app, route) => {
   app.get('/', (req, res) => res.redirect(route.path[req.locale]))
 
   route.draw(app).get(async (req, res) => {
-    res.render(name, routeUtils.getViewData(res))
+    res.render(name, routeUtils.getViewData(res, { 
+      results: [
+        {id: 1, percentageLoss: 0.5},
+        {id: 2, percentageLoss: 0.2},
+        {id: 3, percentageLoss: 0.1},
+      ]
+    }))
   })
 }

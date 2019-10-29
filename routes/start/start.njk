@@ -5,19 +5,25 @@
     <h1>{{ __('start.title') }}</h1>
 
 
-    {{ banner('blue', '<p>' + __('start.intro.banner') + '</p>') }}
+    <h2>{{ __('current.leaderboard') }}</h2>
+    <p>
+        <strong>{{ __('1stplace')}}</strong> {{results[0].id}} {{results[0].percentageLoss}}<br/>
+        <strong>{{ __('2ndplace')}}</strong> {{results[1].id}} {{results[1].percentageLoss}}<br/>
+        <strong>{{ __('3rdplace')}}</strong> {{results[2].id}} {{results[2].percentageLoss}}<br/>
+    </p>
+    <a href="{{ routePath('leaderboard') }}" draggable="false"> 
+        {{__('leaderboard') }}
+    </a>
 
-    <div>{{ __('start.intro') | safe }}</div>
     <div>
-        <a href="{{ routePath('leaderboard') }}" draggable="false"> 
-            {{__('leaderboard') }}
-        </a>
-    </div>
-    <div>
+    <form method="post">
+        <input type="hidden" name="_csrf" value="{{ csrfToken }}">
+        {{ textInput('loserid', 'form.loserid', { class: "w-3-4", required: true }) }}
         <a class="button-link" href="{{ routePath(route.next) }}" role="button" draggable="false">
             {{ __('start.submit') }}
             <span aria-hidden="true">→</span>
         </a>
+        </form>
     </div>
 
 {% endblock %}

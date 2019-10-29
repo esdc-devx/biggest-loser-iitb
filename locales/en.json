@@ -44,10 +44,17 @@
   "start.intro": "What you’ll need to set up notifications:<ul><li>Your information 1</li><li>Your information 2</li></ul>",
   "start.intro.banner": "This is a demo",
   "start.submit": "Let's Go",
-  "start.title": "Node Starter App",
+  "start.title": "IITB's Biggest Loser Competition",
   "wordmark.alt": "Symbol of the Government of Canada",
   "caught this error": "caught this error",
   "Cannot read property 'match' of undefined": "Cannot read property 'match' of undefined",
   "Government of Canada": "Government of Canada",
-  "required": "required"
+  "required": "required",
+  "leaderboard.title": "leaderboard.title",
+  "leaderboard": "View Leaderboard Rankings",
+  "form.loserid": "Enter your loser ID here",
+  "current.leaderboard": "Current Top Leaderboard Rankings",
+  "1stplace": "1st place",
+  "2ndplace": "2nd place",
+  "3rdplace": "3rd place"
 }
