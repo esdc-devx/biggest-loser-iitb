@@ -56,5 +56,9 @@
   "current.leaderboard": "Current Top Leaderboard Rankings",
   "1stplace": "1st place",
   "2ndplace": "2nd place",
-  "3rdplace": "3rd place"
+  "3rdplace": "3rd place",
+  "update-weight.title": "Update your Weight",
+  "update-weight.starting.weight": "Starting Weight",
+  "update-weight.current.weight": "update-weight.current.weight",
+  "update-weight.percent.lost": "update-weight.percent.lost"
 }
