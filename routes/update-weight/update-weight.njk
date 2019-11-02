@@ -8,7 +8,7 @@
         <p>
             <strong>{{ __('update-weight.starting.weight')}}</strong> {{ startingweight }} <br/>
             <strong>{{ __('update-weight.current.weight')}}</strong> {{ weeks | last }} <br/>
-            <strong>{{ __('update-weight.percent.lost')}}</strong> {{ 100 - ((weeks[weeks.length-1]/startingweight)*100) | truncateDecimal(2) }}% <br/>
+            <strong>{{ __('update-weight.percent.lost')}}</strong> {{ (100 - ((weeks[weeks.length-1]/startingweight)*100)) | truncateDecimal(2) }}% <br/>
         </p>
         <p>
         {% for week in weeks%}
