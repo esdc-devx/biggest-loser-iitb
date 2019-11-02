@@ -17,6 +17,7 @@
     "prettier": "prettier --write '**/*.{ts,js,css,html}'",
     "test": "node node_modules/jest/bin/jest.js --coverage",
     "test:watch": "node node_modules/jest/bin/jest.js --watch",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "postinstall": "patch-package",
     "aws": "cd cdk && cdk synth && node deploy",
     "aws-bootstrap": "node cdk/bootstrap.js",
