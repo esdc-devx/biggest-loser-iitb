@@ -4,7 +4,7 @@ const { Schema } = require('./schema.js')
 function getResult(id, percentageLoss ) { 
   return { 
     id, 
-    percentageLoss
+    percentageLoss,
   }
 }
 
@@ -23,8 +23,8 @@ module.exports = (app, route) => {
           getResult(4,0.01),
           getResult(5,0.023),
           getResult(6,0.004),
-          getResult(7,0.001)
-        ]
+          getResult(7,0.001),
+        ],
 
       }))
     })

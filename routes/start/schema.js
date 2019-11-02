@@ -1,6 +1,5 @@
 /* istanbul ignore file */
 
-const isValidDate = require('../../utils/').isValidDate
 
 const Schema = {
   loserid: {

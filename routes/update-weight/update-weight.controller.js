@@ -15,8 +15,8 @@ module.exports = (app, route) => {
             219.10,
             218.01,
             220,
-            217.12
-          ]
+            217.12,
+          ],
         }))
     })
     .post(route.applySchema(Schema), route.doRedirect())

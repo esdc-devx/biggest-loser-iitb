@@ -12,7 +12,7 @@ module.exports = (app, route) => {
         {id: 1, percentageLoss: 0.5},
         {id: 2, percentageLoss: 0.2},
         {id: 3, percentageLoss: 0.1},
-      ]
+      ],
     }))
   })
 }
