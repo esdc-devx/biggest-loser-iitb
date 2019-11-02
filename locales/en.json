@@ -59,6 +59,8 @@
   "3rdplace": "3rd place",
   "update-weight.title": "Update your Weight",
   "update-weight.starting.weight": "Starting Weight",
-  "update-weight.current.weight": "update-weight.current.weight",
-  "update-weight.percent.lost": "update-weight.percent.lost"
+  "update-weight.current.weight": "Last entered Weight",
+  "update-weight.percent.lost": "Percent of Body Weight Lost",
+  "form.currentWeight": "Enter your Current Weight",
+  "update-weight.week": "Week"
 }
